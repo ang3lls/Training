@@ -1,0 +1,6 @@
+coisa = (input('Escreva algo: '))
+print('O tipo primitivo é', type(coisa))
+print('Ele é um numero: ', coisa.isalnum())
+print('Ele é uma palavra: ', coisa.isalpha())
+print('Letras maiuscula: ', coisa.isupper())
+print('letras minusculas ', coisa.islower())
